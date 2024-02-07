@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Application<span class="title small">(web)</span></h1>
+            <h4>Fill The Form Correctly</h4>
+            <form action="first-name">First Name</label>
+                <input id="first-name" name="first-name" placeholder="Enter first-name" type="text">
+                <label action="Last Name">Last Name</label>
+                <input type="text" name="Last Name" id="Last Name" placeholder="Enter Last Name">
+                <div></div>
+                <label action="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Enter E-mail">
+                <label action="job=role"> Job Role</label>
+                <select>
+                    <option value="">Select Job Role</option>
+                    <option value="fronted developer">fronted developer</option>
+                    <option value="web Developer">Web Developer</option>
+                    <option value="web Designer">web Designer</option>
+                 </select>
+                <div></div><br>
+                <div class="textarea-control"></div>
+                <label>Address</label>
+                <textarea name="Address" id="Address" cols="50" rows="4" placeholder="Enter Address"></textarea>
+                <div></div><br>
+                <label action="city"></label>
+                <input type="text" name="City" id="City" placeholder="Enter City">
+                <label action="Pincode">Pincode</label>
+                <input type="text" name="Pincode" id="Pincode" placeholder="Enter Pincode">
+                <div></div>
+                <label action="date">Date</label>
+                <input type="text" name="Date" id="Date">
+                <label action="mobile">Mobile</label>
+                <input type="text" name="Mobile" id="Mobile" placeholder="Enter Mobile">
+                <div></div>
+                <label action="NIN Number">NIN Number</label>
+                <input type="text" name="NIN" id="NIN" placeholder="Enter NIN">
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <button type="submit">Apply Now</button>
+                </form>
+                <footer>@MKSNR WEB DESIGN</footer>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <style type="text/css">
+                    h1,
+                    h4 {
+                        font-style: italic;
+                        color: rgb(215, 250, 224);
+                    }
+                    
+                    boby {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    .container {
+                        max-width: 900px;
+                        margin: 0 auto;
+                    }
+                    
+                    .apply_box {
+                        max-width: 600px;
+                        padding: 70px;
+                        background-color: black;
+                        margin: 0 auto;
+                        margin-top: 50px;
+                        box-shadow: 4px 3px 5px rgba(1, 1, 1, 0, 1);
+                        border-radius: 10px;
+                        color: #fff;
+                    }
+                    
+                    .form_container {
+                        margin-top: 20px;
+                        display: grid;
+                        grid-template-columns: repeat(auto, minmax(200px, 1fr));
+                        grid-gap: 20px;
+                        color: #f32525;
+                        font-family: calibri;
+                    }
+                    
+                    .form_control {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    lebel {
+                        font-size: 15px;
+                        margin-bottom: 5px;
+                    }
+                    
+                    input,
+                    section,
+                    textarea {
+                        padding: 6px 10px;
+                        border: 2px solid gray;
+                        border-radius: 4px;
+                        font-size: 15px;
+                    }
+                </style>
+
+
+
+
+</body>
+
+</html>
